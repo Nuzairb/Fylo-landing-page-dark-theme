@@ -479,6 +479,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+}
+
 a:hover, a:active, a:focus {
   color: white;
   text-decoration: underline;
@@ -597,8 +601,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 60em) {
   .container {
-    width: 75%;
-    max-width: 60rem;
+    max-width: 1440px;
   }
 }
 
@@ -721,5 +724,26 @@ h1, h2, h3, h4, h5, h6 {
   .hidden-sm {
     display: block;
   }
+}
+
+.site-header {
+  padding: 70px 0;
+}
+
+.site-nav {
+  font-size: 16px;
+}
+
+.site-nav ul {
+  float: right;
+}
+
+.site-nav li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.site-nav a {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
