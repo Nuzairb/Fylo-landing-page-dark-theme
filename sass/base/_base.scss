@@ -25,11 +25,15 @@ html {
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+  color: $cyan;
   text-decoration: none;
 
   @include on-event {
     color: $text-color;
     text-decoration: underline;
   }
+}
+
+body {
+  background-color: $dark-blue-main-bg;
 }

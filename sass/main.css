@@ -475,20 +475,24 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #65e2d9;
   text-decoration: none;
 }
 
 a:hover, a:active, a:focus {
-  color: #222222;
+  color: white;
   text-decoration: underline;
+}
+
+body {
+  background-color: #181f2a;
 }
 
 /**
  * Basic typography style for copy text
  */
 body {
-  color: #222222;
+  color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }

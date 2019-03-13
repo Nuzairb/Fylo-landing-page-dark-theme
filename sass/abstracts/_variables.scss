@@ -11,6 +11,7 @@ $body-font: 'Open Sans', sans-serif !default;
 $headings-font: 'Raleway', sans-serif !default;
 
 // Grid
+
 $width: 98%;
 $gutter: 2%;
 $breakpoint-small: 33.75em; // 540px
@@ -20,15 +21,31 @@ $breakpoint-large: 60em; // 960px
 
 /// Copy text color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$text-color:  hsl(0, 0%, 100%) !default;
 
-/// Heading Color
+/// Cyan 
 /// @type Color
-$heading-color: rgb(255, 255, 255) !default;
+$cyan: hsl(176, 68%, 64%) !default;
 
-/// Main brand color
+/// Blue
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$blue: hsl(198, 60%, 50%) !default;
+
+/// Dark Blue CTA
+/// @type Color
+$dark-blue-cta-bg: hsl(217, 28%, 15%) !default;
+
+/// Dark Blue Main Background
+/// @type Color
+$dark-blue-main-bg: hsl(218, 28%, 13%) !default;
+
+/// Dark Blue Footer Background
+/// @type Color
+$dark-blue-footer-bg: hsl(216, 53%, 9%) !default;
+
+/// Dark Blue Testimonial Background
+/// @type Color
+$dark-blue-testimonial-bg: hsl(216, 30%, 18%) !default;
 
 /// Light grey
 /// @type Color
