@@ -479,13 +479,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: white;
-}
-
 a:hover, a:active, a:focus {
-  color: white;
-  text-decoration: underline;
+  color: #65e2d9;
 }
 
 body {
@@ -607,6 +602,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .row {
   width: 100%;
+}
+
+.row--centred {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .row [class^="col"] {

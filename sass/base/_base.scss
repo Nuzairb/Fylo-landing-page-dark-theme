@@ -28,13 +28,8 @@ a {
   color: $text-color;
   text-decoration: none;
   
-  &:hover {
-    color: $text-color;
-  }
-  
   @include on-event {
-    color: $text-color;
-    text-decoration: underline;
+    color: $cyan;
   }
 }
 
