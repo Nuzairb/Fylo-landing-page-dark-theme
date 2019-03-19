@@ -3,4 +3,12 @@
 // -----------------------------------------------------------------------------
 .site-header {
     padding: 70px 0;
+    .site-header-img {
+        background-image: url('../../images/illustration-intro.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 720px;
+        height: 720px;
+        margin: 0 auto;
+    }
 }
