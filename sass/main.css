@@ -731,13 +731,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 70px 0;
 }
 
-.site-header .site-header-img {
+.site-header-img {
   background-image: url("../../images/illustration-intro.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 720px;
   height: 720px;
   margin: 0 auto;
+}
+
+.site-header-title {
+  font-size: 46px;
+  text-align: center;
+}
+
+.site-header-info {
+  font-size: 18px;
+  text-align: center;
 }
 
 .site-nav {
