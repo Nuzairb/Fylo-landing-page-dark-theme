@@ -496,6 +496,11 @@ body {
   font-size: 14px;
 }
 
+button {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   color: white;
@@ -731,6 +736,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 70px 0;
 }
 
+.site-header-content {
+  width: 100%;
+}
+
 .site-header-img {
   background-image: url("../../images/illustration-intro.png");
   background-repeat: no-repeat;
@@ -748,6 +757,55 @@ h1, h2, h3, h4, h5, h6 {
 .site-header-info {
   font-size: 18px;
   text-align: center;
+  line-height: 1.6;
+}
+
+.site-header-btn {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 20px 70px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-radius: 35px;
+  text-align: center;
+  outline: none;
+  -webkit-transition: background-color .1s ease;
+  transition: background-color .1s ease;
+  cursor: pointer;
+  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
+}
+
+.btn:focus, .btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #7ae6df;
+}
+
+.btn:hover::after {
+  opacity: .22;
+}
+
+.btn:active {
+  background-color: #4fded4;
+}
+
+.btn:active::after {
+  opacity: .32;
 }
 
 .site-nav {

@@ -3,6 +3,9 @@
 // -----------------------------------------------------------------------------
 .site-header {
     padding: 70px 0;
+    &-content {
+        width: 100%;
+    }
     &-img {
         background-image: url('../../images/illustration-intro.png');
         background-repeat: no-repeat;
@@ -18,8 +21,12 @@
     &-info {
         font-size: 18px;
         text-align: center;
+        line-height: 1.6;
     }
     &-btn {
-
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
     }
 }

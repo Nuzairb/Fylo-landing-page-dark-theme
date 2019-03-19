@@ -1,3 +1,43 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.btn {
+    display: inline-block;
+	border: none;
+	color: $text-color;
+	text-decoration: none;
+	padding: 20px 70px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	border-radius: 35px;
+	text-align: center;
+	outline: none;
+    transition: background-color .1s ease;
+    cursor: pointer;
+    background-image: linear-gradient(to right, $cyan 0%, $blue 100%);
+		
+    &:focus, &:hover {
+        text-decoration: none;
+	    color: $text-color;
+    }
+		
+	&:hover {
+        background-color: lighten($cyan, 5%);
+        
+		&::after {
+            opacity: .22;
+        }
+        
+    }
+		
+	&:active {
+        background-color: darken($cyan, 5%);
+        
+        &::after {
+            opacity: .32
+        }
+			
+    }
+		
+}

@@ -7,6 +7,10 @@ body {
   font-size: 14px;
 }
 
+button {
+  font-family: $headings-font;
+  color: $text-color;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: $headings-font;
   color: $text-color;
