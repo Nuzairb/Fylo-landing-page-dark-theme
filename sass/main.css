@@ -778,7 +778,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-cta {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .site-cta .text-box h1 {
@@ -801,6 +801,9 @@ h1, h2, h3, h4, h5, h6 {
 .testimonial-card {
   background-color: #202b3c;
   padding: 20px;
+  -webkit-box-shadow: 10px 10px 15px 0px #1c2431;
+          box-shadow: 10px 10px 15px 0px #1c2431;
+  margin: 140px 0;
 }
 
 .testimonial-card__info {

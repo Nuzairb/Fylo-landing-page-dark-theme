@@ -7,10 +7,7 @@
 }
 
 .site-cta  {
-    margin-top: 60px;
-    .img-box {
-
-    }
+    margin-top: 70px;
     .text-box {
         h1 {
             font-size: 40px;
@@ -33,6 +30,8 @@
     &-card {
         background-color: $dark-blue-testimonial-bg;
         padding: 20px;
+        box-shadow: 10px 10px 15px 0px $dark-blue-cta-bg;
+        margin: 140px 0;
         &__info {
             font-size: 16px;
             margin-bottom: 30px;
