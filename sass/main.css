@@ -777,6 +777,27 @@ h1, h2, h3, h4, h5, h6 {
   margin: 60px 0;
 }
 
+.site-cta {
+  margin-top: 60px;
+}
+
+.site-cta .text-box h1 {
+  font-size: 40px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.site-cta .text-box p {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+
+.site-cta .text-box button {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
 .btn {
   display: inline-block;
   border: none;
@@ -815,6 +836,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn:active::after {
   opacity: .32;
+}
+
+.btn--underline {
+  display: inline-block;
+  text-decoration: none;
+  background: none;
+  color: #65e2d9;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #65e2d9;
+  cursor: pointer;
 }
 
 .site-nav {
