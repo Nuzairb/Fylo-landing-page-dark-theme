@@ -798,12 +798,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 40px;
 }
 
+.testimonial {
+  background-image: url("../../images/bg-quotes.png");
+  background-repeat: no-repeat;
+  margin: 150px 0;
+}
+
 .testimonial-card {
   background-color: #202b3c;
   padding: 20px;
   -webkit-box-shadow: 10px 10px 15px 0px #1c2431;
           box-shadow: 10px 10px 15px 0px #1c2431;
-  margin: 140px 0;
+  margin: 45px 0;
 }
 
 .testimonial-card__info {
