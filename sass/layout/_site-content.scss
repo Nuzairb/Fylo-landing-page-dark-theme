@@ -58,3 +58,29 @@
         }
     }
 }
+
+.contact-form {
+    width: 80%;
+    background-color: $dark-blue-cta-bg;
+    margin: 50px auto;
+    padding: 40px;
+    text-align: center;
+    .search {
+        font-size: 14px;
+        margin-top: 40px;
+        .searchTerm {
+            width: 50%;
+            height: 45px;
+            border-radius: 50px;
+            border: none;
+            margin-right: 20px;
+        }
+        .btn--form {
+            font-size: 14px;
+            padding: 15px;
+            font-weight: 600;
+
+
+        }
+    }
+}
